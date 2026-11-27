@@ -59,9 +59,12 @@ The PCB uses **two copper layers** and through-hole components mounted on one si
 
 The photograph shows the assembled board, including the power-stage heatsink, monitoring circuitry, adjustment potentiometer, and onboard sounder.
 
-### Hardware and Documentation Versions
+## Photographed Prototype and Design Files
 
-The photographs show hardware that I assembled and soldered. Some photographed boards are earlier versions and may differ from the published Altium files in component placement, markings, or implementation details. The Altium files and engineering documents describe the version prepared during my work on the project.
+The photograph shows a board that I assembled and soldered. The published
+Altium files reflect my work transferring and refining the existing design.
+Some components or layout details in the photographed prototype may differ
+from those files.
 
 ## Bill of Materials
 
