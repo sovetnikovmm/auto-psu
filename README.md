@@ -6,6 +6,12 @@ The indicator changes from **green** at full charge, through **yellow**, to **re
 
 The repository contains the Altium Designer project, PCB views, fabrication files, BOM, and original Russian engineering documentation.
 
+## My Contribution
+
+This project is based on a board design created before my involvement. I transferred the existing design to **Altium Designer** and prepared the schematic, PCB layout, component libraries, bill of materials, and engineering documentation.
+
+My work included component selection, standardizing schematic symbols and footprints, clarifying component parameters, and aligning the schematic, PCB, and documentation. I also **personally assembled and soldered the board**.
+
 ## Block Diagram
 
 [![Block diagram](hardware/images/block-diagram.png)](hardware/images/block-diagram.png)
@@ -47,15 +53,15 @@ The output is not a regulated 24 V rail in backup mode: it follows the battery v
 
 The PCB uses **two copper layers** and through-hole components mounted on one side. The layout includes the power rectifiers, a 5 W resistor, monitoring circuitry, an adjustment potentiometer, a piezoelectric sounder, and pluggable connectors.
 
-## Assembled Device
+## Assembled Board
 
-> **Photo of the assembled board / test bench — to be added.**
+[![Assembled Auto PSU board with heatsink](hardware/images/pcb-real.jpg)](hardware/images/pcb-real.jpg)
 
-<!-- Replace the placeholder above with this line after adding the photo:
-[![Assembled board](hardware/images/pcb-real.jpg)](hardware/images/pcb-real.jpg)
--->
+The photograph shows the assembled board, including the power-stage heatsink, monitoring circuitry, adjustment potentiometer, and onboard sounder.
 
-The intended demonstration shows normal operation from the 24 V supply, automatic transfer to the battery when that supply is removed, and the accompanying audible and visual indications.
+### Hardware and Documentation Versions
+
+The photographs show hardware that I assembled and soldered. Some photographed boards are earlier versions and may differ from the published Altium files in component placement, markings, or implementation details. The Altium files and engineering documents describe the version prepared during my work on the project.
 
 ## Bill of Materials
 
@@ -97,7 +103,7 @@ The intended demonstration shows normal operation from the 24 V supply, automati
 
 ## Additional Notes
 
-- This is an analog and logic-based design; no microcontroller or firmware is required on the board.
+- This board uses analog monitoring and logic circuitry without a microcontroller.
 - R16* has no value or part number in the supplied BOM. Its selection remains to be documented.
 - Manufacturer entries are reproduced from the CSV, including “GOST” for VT1–VT4; these entries do not identify a specific semiconductor manufacturer.
 - Battery chemistry, indication thresholds, rated load current, and measured transfer time are not specified in the supplied material.
