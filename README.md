@@ -55,7 +55,7 @@ The PCB uses **two copper layers** and through-hole components mounted on one si
 
 ## Assembled Board
 
-[![Assembled Auto PSU board with heatsink](hardware/images/pcb-real.jpg)](hardware/images/pcb-real.jpg)
+[![Assembled Auto PSU board with heatsink](hardware/images/auto-psu_pcb-real.jpg)](hardware/images/auto-psu_pcb-real.jpg)
 
 The photograph shows the assembled board, including the power-stage heatsink, monitoring circuitry, adjustment potentiometer, and onboard sounder.
 
